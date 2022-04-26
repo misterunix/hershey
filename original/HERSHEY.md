@@ -18,3 +18,8 @@ Raise the pen " R"
 Move to "OQ" = (-3,-1)  
 Draw to "UQ" = (3,-1)  
 Drawing this out on a piece of paper will reveal it represents an 'H'. 
+
+Update
+  1. condensed lines in hershey files to make them easier to parse. **not** checked for errors yet.
+
+  

@@ -6,6 +6,20 @@ import (
 	"strings"
 )
 
+type Pair struct {
+	X int8
+	Y int8
+}
+
+type Glyph struct {
+	Char      int
+	CharCode  string
+	PairCount int
+	Pairs     []Pair
+}
+
+var Glyphs []Glyph
+
 func main() {
 	fmt.Println("Program started")
 
